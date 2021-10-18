@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <title>Dashboard</title>
+
+
+    <link href="../CSS/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav id="sidebar" class="sidebar">
+        <div class="sidebar-content js-simplebar">
+          <a class="sidebar-brand" href="../HTML/index.html">
+            <span class="align-middle">
+              <img src="../IMAGES/logo (2).png" style="width: 40px; height: 40px;" alt=""> Dashboard</span>
+          </a>
+
+          <ul class="sidebar-nav">
+            <li class="sidebar-item">
+              <a class="sidebar-link py-4" href="../HTML/index.html">
+                <img src="../ICONS/mike.svg" alt="" />
+                <span class="align-middle ml-3 text-white">Announcement</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link py-4" href="../HTML/prepare.html">
+                <img src="../ICONS/folder_open_white_24dp.svg" alt="" />
+                <span class="align-middle ml-3 text-white">Prepare</span>
+              </a>
+            </li>
+
+            <li class="sidebar-item active">
+              <a
+                data-target="#ui"
+                data-toggle="collapse"
+                class="sidebar-link collapsed"
+              >
+                <img src="../ICONS/people_alt_white_24dp.svg" alt="" />
+                <span class="align-middle ml-3 text-white">Member Info</span>
+              </a>
+              <ul
+                id="ui"
+                class="sidebar-dropdown list-unstyled collapse"
+                data-parent="#sidebar"
+              >
+                <li class="sidebar-item">
+                  <a class="sidebar-link text-white" href="../HTML/memberInfo.html"
+                    >Member Info</a
+                  >
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link text-white" href="../HTML/member1.html"
+                    >Member 1</a
+                  >
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link text-white" href="../HTML/member2.html"
+                    >Member 2</a
+                  >
+                </li>
+                <li class="sidebar-item">
+                  <a class="sidebar-link text-white" href="../HTML/member3.html"
+                    >Member 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="sidebar-header">Message Box</li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link py-4" href="email.html">
+                <img src="../ICONS/mail_white_24dp.svg" alt="" />
+                <span class="align-middle ml-3 text-white">
+                  Email <span class="badge badge-danger">4</span></span
+                >
+              </a>
+            </li>
+            <li class="sidebar-item ">
+              <a class="sidebar-link py-4" href="../HTML/chat.html">
+                <img
+                  src="../ICONS/question_answer_white_24dp.svg"
+                  alt=""
+                />
+                <span class="align-middle ml-3 text-white">
+                  Text <span class="badge badge-danger">2</span></span
+                >
+              </a>
+            </li>
+
+            <li class="sidebar-item">
+              <a class="sidebar-link py-4" href="../HTML/voicemail.html">
+                <img
+                  src="../ICONS/voicemail_white_24dp.svg"
+                  class="text-secondary"
+                  alt=""
+                />
+                <span class="align-middle ml-3 text-white">Voicemail</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main bg-dark">
+        <nav
+          class="navbar navbar-expand navbar-light navbar-bg"
+          style="background-color: #222e3c"
+        >
+        <a class="sidebar-toggle d-flex">
+          <img src="../ICONS/menu_white_24dp.svg" ></img>
+        </a>
+
+        <div class="navbar-collapse collapse">
+          <ul class="navbar-nav navbar-align">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-icon dropdown-toggle"
+                href="#"
+                id="alertsDropdown"
+                data-toggle="dropdown"
+              >
+                <div class="position-relative">
+                  <i class="align-middle" data-feather="bell"></i>
+                  <span class="indicator">4</span>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-icon dropdown-toggle"
+                href="#"
+                id="messagesDropdown"
+                data-toggle="dropdown"
+              >
+                <div class="position-relative">
+                  <i class="align-middle" data-feather="message-square"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+
+        <main class="content">
+          <div class="container-fluid p-0">
+            <h1 class="h3 mb-3 text-white">Member 1 Details</h1>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card">
+                  <div class="card-header bg-success">
+                    <h5 class="card-title mt-1 mb-1 text-white">
+                      <strong>Details</strong>
+                    </h5>
+                  </div>
+                  <h6 class="card-subtitle text-muted mt-4 p-3">
+                    Alerts with contextual icon background. Alerts with
+                    contextual icon background. Alerts with contextual icon
+                    background. Alerts with contextual icon background.
+                  </h6>
+                  <div class="card-body"></div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="card">
+                  <div class="card-header bg-success">
+                    <h5 class="card-title mt-1 mb-1 text-white">
+                      <strong>Activities</strong>
+                    </h5>
+                  </div>
+                  <h6 class="card-subtitle text-muted mt-4 p-3">
+                    Alerts with contextual icon background.Alerts with
+                    contextual icon background. Alerts with contextual icon
+                    background. Alerts with contextual icon background.
+                  </h6>
+                  <div class="card-body"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer class="footer" style="background-color: #222e3c">
+          <nav aria-label="...">
+            <ul class="pagination float-right">
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+    </div>
+
+    <script src="../MODULES/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
